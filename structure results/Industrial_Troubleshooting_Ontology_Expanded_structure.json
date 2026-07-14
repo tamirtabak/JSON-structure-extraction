@@ -1,0 +1,50 @@
+{
+  "schema_version": "str",
+  "description": "str",
+  "generated_date": "str",
+  "methodology": "str",
+  "problem_types": [
+    {
+      "id": "str",
+      "name": "str",
+      "description": "str",
+      "applies_to_equipment": [
+        "str"
+      ],
+      "root_causes": [
+        {
+          "category": "str",
+          "causes": [
+            "str"
+          ]
+        }
+      ]
+    }
+  ],
+  "root_cause_categories": [
+    {
+      "id": "str",
+      "name": "str",
+      "description": "str",
+      "icon": "str"
+    }
+  ],
+  "equipment_categories": [
+    {
+      "id": "str",
+      "name": "str",
+      "equipment": [
+        "str"
+      ]
+    }
+  ],
+  "statistics": {
+    "total_problem_types": "int",
+    "total_root_cause_categories": "int",
+    "total_equipment_types": "int",
+    "total_specific_causes": "int",
+    "average_causes_per_problem": "int",
+    "equipment_with_most_problems": "str",
+    "most_common_root_cause_category": "str"
+  }
+}

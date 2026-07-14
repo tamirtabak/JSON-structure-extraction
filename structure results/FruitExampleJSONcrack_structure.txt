@@ -1,0 +1,13 @@
+Structure Map for FruitExampleJSONcrack.json
+========================================
+      ├── calories
+      ├── fiber
+      ├── vitaminC
+      ├── type
+      ├── season
+    ├── name
+    ├── color
+    ├── details
+    ├── nutrients
+  └── [Array Items]
+├── fruits

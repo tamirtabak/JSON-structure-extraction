@@ -1,0 +1,17 @@
+{
+  "fruits": [
+    {
+      "name": "str",
+      "color": "str",
+      "details": {
+        "type": "str",
+        "season": "str"
+      },
+      "nutrients": {
+        "calories": "int",
+        "fiber": "str",
+        "vitaminC": "str"
+      }
+    }
+  ]
+}

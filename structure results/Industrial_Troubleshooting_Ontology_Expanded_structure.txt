@@ -1,0 +1,38 @@
+Structure Map for Industrial_Troubleshooting_Ontology_Expanded.json
+========================================
+  ├── total_problem_types
+  ├── total_root_cause_categories
+  ├── total_equipment_types
+  ├── total_specific_causes
+  ├── average_causes_per_problem
+  ├── equipment_with_most_problems
+  ├── most_common_root_cause_category
+      └── [Array Items]
+    ├── id
+    ├── name
+    ├── equipment
+  └── [Array Items]
+    ├── id
+    ├── name
+    ├── description
+    ├── icon
+  └── [Array Items]
+          └── [Array Items]
+        ├── category
+        ├── causes
+      └── [Array Items]
+      └── [Array Items]
+    ├── id
+    ├── name
+    ├── description
+    ├── applies_to_equipment
+    ├── root_causes
+  └── [Array Items]
+├── schema_version
+├── description
+├── generated_date
+├── methodology
+├── problem_types
+├── root_cause_categories
+├── equipment_categories
+├── statistics
